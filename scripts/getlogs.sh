@@ -11,5 +11,5 @@ NC=$'\e[0m'
 for pod in $pods
 do
     echo "${RED}pod logs${NC} ${GREEN}$pod${NC}"
-    kubectl logs -n $2 $pod | grep -i exception
+    kubectl logs -n $2 $pod | grep -i $3
 done
