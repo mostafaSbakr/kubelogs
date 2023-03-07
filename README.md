@@ -11,5 +11,14 @@ and namespace at once to ease the logs checking process in the daily maintenance
 
 usage
 ```
- ./getlogs.sh <context> <namespace>
+ ./getlogs.sh <context> <namespace> <lookup string>
+```
+
+example
+```
+./getlogs.sh prd-mips-pp-aks partnerpool exception
+```
+
+```
+./getlogs.sh prd-mips-pp-aks partnerpool warn
 ```
